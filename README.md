@@ -1,6 +1,8 @@
 TL;DR
 - ETHEL is a fully local AI system that watches a single environment, writes down what it sees and hears, and builds a long-term memory of that space. The core pipeline is working today (vision → captions → database → summaries → analytics → chat). A per-entity weight system (novelty, comfort, expectation) and proper identity layer (“Sparky vs dog”) are designed but not mathematically specified or implemented yet.
 
+NOTE: The current implementation is private: this repository documents the architecture and behavior of the system.
+
 -----
 
 ETHEL:
@@ -388,3 +390,4 @@ Designed but not built:
 - Voice output via Piper.
 
 ETHEL is a live, evolving prototype: the pipeline is real and running; the personality and weighting system are the next major layer.
+
