@@ -1,0 +1,2 @@
+# Video source for the demo: file name in the ingest/ folder, a camera index (e.g., 0), or an RTSP/HTTP URL
+source=shimmer_test.mp4

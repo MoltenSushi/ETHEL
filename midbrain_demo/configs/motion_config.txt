@@ -1,0 +1,8 @@
+# Minimum motion fraction required to be considered motion
+motion_threshold=0.35
+
+# Frames that must exceed the motion threshold to trigger the motion gate
+min_motion_frames=1
+
+# Minimum fraction of the frame area that must be in motion
+min_motion_area_frac=0.0

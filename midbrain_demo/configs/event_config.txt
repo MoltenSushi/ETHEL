@@ -1,0 +1,29 @@
+# Hourly or single-file JSONL output ("hour" = events_YYYYMMDD_HH.jsonl, "file" = events.jsonl)
+event_jsonl_roll=hour
+
+# Fraction of frame width used for left/right side detection
+side_margin_frac=0.15
+
+# Seconds before the same track can fire another enter/exit
+micro_event_cooldown_s=2
+
+# Frames required before a track counts as "entered"
+min_track_frames=2
+
+# Minimum bbox area to qualify as a valid track
+min_track_area_px=1500
+
+# Time after last presence before scene is considered idle
+presence_hold_s=3
+
+# Seconds before burst is seen as over/closed
+merge_grace_s=4
+
+# Seconds included before burst start
+clip_pre_s=3
+
+# Seconds included after burst end
+clip_post_s=3
+
+# Minimum burst duration required to emit summary events
+min_event_sec=1.0

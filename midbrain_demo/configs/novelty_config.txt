@@ -1,0 +1,5 @@
+# Maximum allowed difference between image fingerprints (higher = more tolerant)
+phash_distance_max=8
+
+# How long to keep recent image fingerprints for duplicate/new checks (seconds)
+novelty_window_s=20

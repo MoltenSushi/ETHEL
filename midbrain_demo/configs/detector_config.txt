@@ -1,0 +1,13 @@
+# YOLO model to load
+model=yolov8n.pt
+
+# YOLO cadence: target detector passes/second
+cadence_fps=10
+
+# Detection thresholds
+conf_threshold=0.2
+nms_iou=0.50
+max_detections=20
+
+# Allowed classes (whitelist)
+labels=person,dog,cat
