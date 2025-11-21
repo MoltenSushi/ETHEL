@@ -89,7 +89,6 @@ midbrain_demo/
     Detect.py
     journaler.py
     summarizer.py
-    yolov8n.pt
   summaries/
 ```
 
@@ -194,3 +193,4 @@ Defaults are tuned for running the demo straight out of the box.
 
 © 2025 Kena Teite. Released under the MIT License.  
 See the LICENSE file for full terms.
+
